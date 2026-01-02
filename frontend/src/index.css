@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+   themes: light --prefersdark, dark , "cupcake",halloween, retro, coffee, black, dim, nord, cmyk, valentine ;
+ }
+html,
+body,
+#root {
+  height: 100%;
+  overflow: hidden;
+}
+
+
